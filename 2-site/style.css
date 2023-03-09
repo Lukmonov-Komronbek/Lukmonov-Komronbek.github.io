@@ -23,7 +23,6 @@ body {
 }
 
 .bb {
-    width: 1560px;
     height: 2px;
     background: rgba(255, 255, 255, 0.04);
     margin: 0 auto;
@@ -68,10 +67,9 @@ nav {
     width: 50%;
 }
 
-
-/* .menu2 {
-margin-right: 433px;
-} */
+.menu2 {
+    cursor: pointer;
+}
 
 ul {
     display: flex;
@@ -90,11 +88,13 @@ img {
 
 .text4 {
     font-family: 'IBM Plex Mono', monospace;
+    cursor: pointer;
 }
 
 .insite {
     font-family: 'Helvetica';
     font-size: 24px;
+    cursor: pointer;
 }
 
 .radius {
@@ -180,7 +180,6 @@ img {
 }
 
 .box3 {
-    width: 1560px;
     height: 211px;
     margin: 185px 447px 0 0;
     display: flex;
@@ -235,7 +234,7 @@ section {
 }
 
 .olsta {
-    width: 1193px;
+    width: 100%;
     height: 242px;
     margin: 24px 352px;
 }
@@ -284,6 +283,7 @@ section {
     font-weight: 400;
     font-size: 48px;
     line-height: 73px;
+    cursor: pointer;
     color: #FFFFFF;
 }
 
@@ -315,7 +315,7 @@ section {
 }
 
 .bayramix {
-    width: 1193px;
+    width: 80%;
     height: 242px;
     margin: 0 350px;
 }
@@ -331,7 +331,7 @@ section {
 }
 
 .calipsoshoes {
-    width: 1193px;
+    width: 80%;
     height: 242px;
     margin: 0 350px;
 }
@@ -347,7 +347,7 @@ section {
 }
 
 .decorazza {
-    width: 1193px;
+    width: 80%;
     height: 242px;
     margin: 0 350px;
 }
@@ -363,7 +363,7 @@ section {
 }
 
 .details-shop {
-    width: 1193px;
+    width: 80%;
     height: 242px;
     margin: 0 350px;
 }
@@ -429,7 +429,6 @@ section {
 }
 
 .call {
-    width: 794px;
     font-family: 'Gosha Sans';
     font-size: 96px;
     line-height: 115px;
@@ -446,6 +445,7 @@ section {
     margin-top: 30px;
     line-height: 81px;
     color: rgba(255, 255, 255, 0.48);
+    cursor: pointer;
 }
 
 .telegram {
@@ -455,7 +455,8 @@ section {
     font-size: 48px;
     line-height: 81px;
     color: rgba(255, 255, 255, 0.48);
-    margin-left: 1050px;
+    margin-left: 75%;
+    cursor: pointer;
 }
 
 .help {
