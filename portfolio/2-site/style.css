@@ -1,0 +1,1264 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Helvetica:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: #161616;
+}
+
+.o {
+    display: flex;
+}
+
+.container {
+    width: 81.25%;
+    margin: 0 auto;
+}
+
+.bb {
+    width: 1560px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.04);
+    margin: 0 auto;
+}
+
+.navb {
+    width: 81.25%;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+nav {
+    width: 100%;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.c {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.box {
+    padding: 0 15px;
+    display: flex;
+    color: #fff;
+    font-size: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+
+/* .menu2 {
+margin-right: 433px;
+} */
+
+ul {
+    display: flex;
+    gap: 96px;
+}
+
+a {
+    color: #fff;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 60px;
+}
+
+.text4 {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.insite {
+    font-family: 'Helvetica';
+    font-size: 24px;
+}
+
+.radius {
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.text {
+    height: 208px;
+    margin-top: 19%;
+    margin-bottom: 20%;
+    margin-left: 54%;
+}
+
+.text1 {
+    width: 850px;
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 83px;
+    color: #FFFFFF;
+}
+
+.text2 {
+    width: 381px;
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 83px;
+    color: #000000;
+    background-color: yellow;
+}
+
+.text3 {
+    width: 666px;
+    margin: -31px 140px;
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+    font-size: 64px;
+    background-color: yellow;
+    line-height: 83px;
+    position: relative;
+    z-index: 555;
+}
+
+.box2 {
+    display: flex;
+    margin: -70px 0 0 0;
+    position: relative;
+}
+
+.онас {
+    font-family: 'Gosha Sans';
+    font-size: 96px;
+    color: #FFFFFF;
+    margin-top: -30px;
+}
+
+.longtext1 {
+    width: 474px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: rgba(255, 255, 255, 0.48);
+}
+
+.longtext2 {
+    width: 474px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: rgba(255, 255, 255, 0.48);
+    margin-left: 46px;
+}
+
+.bg_img {
+    width: 100%;
+    margin-left: -100px;
+}
+
+.box3 {
+    width: 1560px;
+    height: 211px;
+    margin: 185px 447px 0 0;
+    display: flex;
+}
+
+section {
+    position: relative;
+}
+
+.t {
+    width: 110px;
+    font-family: 'Gosha Sans';
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.t_s {
+    width: 490px;
+    height: 81px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.48);
+    margin-top: 16px;
+}
+
+.box4 {
+    margin-right: 30px;
+}
+
+.box5 {
+    margin-right: 46px;
+}
+
+.p-t {
+    width: 382px;
+    margin: 219px 0 0 0;
+    font-family: 'Gosha Sans';
+    font-size: 96px;
+    line-height: 115px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.project {
+    width: 100%;
+    height: 1510px;
+    margin: 192px 0 0 0;
+}
+
+.olsta {
+    width: 1193px;
+    height: 242px;
+    margin: 24px 352px;
+}
+
+.olsta:before {
+    content: '';
+    position: absolute;
+    background: url(./img/01.png) no-repeat;
+    width: 300px;
+    height: 200px;
+    margin-top: -6px;
+    margin-left: -23px;
+}
+
+.g-t {
+    display: flex;
+    margin-top: 64px;
+}
+
+.d-t {
+    width: 63px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.48);
+    mix-blend-mode: normal;
+    margin-left: 138px;
+}
+
+.r-t {
+    width: 91px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.48);
+    margin-left: 40px;
+    mix-blend-mode: normal;
+}
+
+.o-t {
+    width: 916px;
+    margin: 6px 135px;
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 73px;
+    color: #FFFFFF;
+}
+
+.sectb {
+    width: 81.25%;
+    position: absolute;
+    bottom: -150px;
+    margin: 0 auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.o_b {
+    width: 60%;
+    position: absolute;
+    bottom: -150px;
+    margin: 0 auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.sectb {
+    width: 81.25%;
+    position: absolute;
+    bottom: -150px;
+    margin: 0 auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.bayramix {
+    width: 1193px;
+    height: 242px;
+    margin: 0 350px;
+}
+
+.bayramix:before {
+    content: '';
+    position: absolute;
+    background: url(./img/02.png) no-repeat;
+    width: 300px;
+    height: 200px;
+    margin-top: -6px;
+    margin-left: -23px;
+}
+
+.calipsoshoes {
+    width: 1193px;
+    height: 242px;
+    margin: 0 350px;
+}
+
+.calipsoshoes:before {
+    content: '';
+    position: absolute;
+    background: url(./img/03.png) no-repeat;
+    width: 300px;
+    height: 200px;
+    margin-top: -6px;
+    margin-left: -23px;
+}
+
+.decorazza {
+    width: 1193px;
+    height: 242px;
+    margin: 0 350px;
+}
+
+.decorazza:before {
+    content: '';
+    position: absolute;
+    background: url(./img/04.png) no-repeat;
+    width: 300px;
+    height: 200px;
+    margin-top: -6px;
+    margin-left: -23px;
+}
+
+.details-shop {
+    width: 1193px;
+    height: 242px;
+    margin: 0 350px;
+}
+
+.details-shop:before {
+    content: '';
+    position: absolute;
+    background: url(./img/05.png) no-repeat;
+    width: 300px;
+    height: 200px;
+    margin-top: -6px;
+    margin-left: -23px;
+}
+
+.o_b {
+    width: 53.3%;
+    position: absolute;
+    bottom: 903px;
+    margin: 0 auto;
+    left: 62%;
+    transform: translate(-50%, 0);
+}
+
+.o_a {
+    width: 53.3%;
+    position: absolute;
+    bottom: 1208px;
+    margin: 0 auto;
+    left: 62%;
+    transform: translate(-50%, 0);
+}
+
+.o_d {
+    width: 53.3%;
+    position: absolute;
+    bottom: 598px;
+    margin: 0 auto;
+    left: 62%;
+    transform: translate(-50%, 0);
+}
+
+.o_c {
+    width: 53.3%;
+    position: absolute;
+    bottom: 293px;
+    margin: 0 auto;
+    left: 62%;
+    transform: translate(-50%, 0);
+}
+
+.o_e {
+    width: 53.3%;
+    position: absolute;
+    bottom: -12px;
+    margin: 0 auto;
+    left: 62%;
+    transform: translate(-50%, 0);
+}
+
+.group_calls {
+    margin-top: 267px;
+    display: flex;
+}
+
+.call {
+    width: 794px;
+    font-family: 'Gosha Sans';
+    font-size: 96px;
+    line-height: 115px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    margin-right: 250px;
+}
+
+.gmail {
+    width: 474px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 48px;
+    margin-top: 30px;
+    line-height: 81px;
+    color: rgba(255, 255, 255, 0.48);
+}
+
+.telegram {
+    width: 474px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 81px;
+    color: rgba(255, 255, 255, 0.48);
+    margin-left: 1050px;
+}
+
+.help {
+    margin-bottom: 280px;
+}
+
+@media screen and (max-width: 1130px) {
+    .container {
+        width: 90%;
+    }
+    .img {
+        width: 400px !important;
+        height: 555px !important;
+        position: absolute;
+    }
+    .text {
+        width: 366px;
+        height: 97px;
+        margin-top: 294px;
+    }
+    .text1 {
+        width: 352px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .nav2 {
+        display: none;
+    }
+    ul {
+        display: none;
+    }
+    .navb {
+        display: none;
+    }
+    .text2 {
+        width: 190px !important;
+        height: 36px !important;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .text3 {
+        width: 286px !important;
+        height: 37px !important;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px !important;
+        line-height: 36px;
+        margin-top: -12px;
+        margin-left: 65px;
+    }
+    .box3 {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .box6 {
+        margin-left: -750px;
+        margin-top: 200px;
+    }
+    .t {
+        font-family: 'Gosha Sans';
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .t_s {
+        width: 334px;
+        height: 165px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .bb {
+        width: 92%;
+    }
+    .p-t {
+        width: 191px;
+        height: 58px;
+        font-family: 'Gosha Sans';
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .olsta {
+        width: 1036px;
+        height: 188px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        background-image: none;
+        font-size: 36px;
+        line-height: 55px;
+        margin-left: 150px;
+    }
+    .o_a {
+        display: none;
+    }
+    .bayramix {
+        width: 1036px;
+        height: 188px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        background-image: none;
+        font-size: 36px;
+        line-height: 55px;
+        margin-left: 150px;
+    }
+    .o_d {
+        display: none;
+    }
+    .calipsoshoes {
+        width: 1036px;
+        height: 188px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        background-image: none;
+        font-size: 36px;
+        line-height: 55px;
+        margin-left: 150px;
+    }
+    .o_c {
+        display: none;
+    }
+    .decorazza {
+        width: 1036px;
+        height: 188px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        background-image: none;
+        font-size: 36px;
+        line-height: 55px;
+        margin-left: 150px;
+    }
+    .o_e {
+        display: none;
+    }
+    .details-shop {
+        width: 1036px;
+        height: 188px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        background-image: none;
+        font-size: 36px;
+        line-height: 55px;
+        margin-left: 150px;
+    }
+    .o_b {
+        display: none;
+    }
+    .call {
+        width: 397px;
+        height: 58px;
+        font-family: 'Gosha Sans';
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .gmail {
+        width: 472px;
+        height: 50px;
+        margin-top: 130px;
+        margin-left: -200px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .telegram {
+        width: 472px;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 50%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .help {
+        margin-top: -300px;
+    }
+    .box2 {
+        flex-direction: column;
+    }
+    .онас {
+        margin-top: 80px;
+        font-size: 48px;
+    }
+    .longtext1 {
+        margin-top: 24px;
+    }
+    .longtext2 {
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .container {
+        width: 90%;
+    }
+    .img {
+        width: 600px;
+        height: 785px;
+        position: absolute;
+    }
+    .text {
+        width: 366px;
+        height: 97px;
+        margin-top: 294px;
+    }
+    .text1 {
+        width: 352px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 36px;
+    }
+    .text2 {
+        width: 400px;
+        height: 57px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .text3 {
+        width: 400px;
+        height: 57px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 36px;
+        margin-left: 65px;
+    }
+    /* .box3 {
+display: flex;
+flex-flow: row wrap;
+} */
+    /* .box6 {
+margin-left: -750px;
+margin-top: 200px;
+} */
+    .t {
+        font-family: 'Gosha Sans';
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .t_s {
+        width: 334px;
+        height: 165px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .bb {
+        width: 92%;
+    }
+    .p-t {
+        width: 191px;
+        height: 58px;
+        font-family: 'Gosha Sans';
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .olsta {
+        width: 1036px;
+        height: 188px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        background-image: none;
+        font-size: 36px;
+        line-height: 55px;
+        margin-left: 150px;
+    }
+    .o_a {
+        display: none;
+    }
+    .bayramix {
+        width: 1036px;
+        height: 188px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        background-image: none;
+        font-size: 36px;
+        line-height: 55px;
+        margin-left: 150px;
+    }
+    .o_d {
+        display: none;
+    }
+    .calipsoshoes {
+        width: 1036px;
+        height: 188px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        background-image: none;
+        font-size: 36px;
+        line-height: 55px;
+        margin-left: 150px;
+    }
+    .o_c {
+        display: none;
+    }
+    .decorazza {
+        width: 1036px;
+        height: 188px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        background-image: none;
+        font-size: 36px;
+        line-height: 55px;
+        margin-left: 150px;
+    }
+    .o_e {
+        display: none;
+    }
+    .details-shop {
+        width: 1036px;
+        height: 188px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        background-image: none;
+        font-size: 36px;
+        line-height: 55px;
+        margin-left: 150px;
+    }
+    .o_b {
+        display: none;
+    }
+    .call {
+        width: 397px;
+        height: 58px;
+        font-family: 'Gosha Sans';
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .gmail {
+        width: 472px;
+        height: 50px;
+        margin-top: 130px;
+        margin-left: -200px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .telegram {
+        width: 472px;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 50%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .help {
+        margin-top: -300px;
+    }
+    .box2 {
+        flex-direction: column;
+    }
+    .онас {
+        margin-top: 80px;
+        font-size: 48px;
+    }
+    .longtext1 {
+        margin-top: 24px;
+    }
+    .longtext2 {
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 1234px) {
+    .box {
+        display: none;
+    }
+    .bb {
+        display: none;
+    }
+    .ul {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .container {
+        width: 90%;
+    }
+    .img {
+        position: absolute;
+        width: 272.21px;
+        height: 398.11px;
+        left: -40px;
+        top: -40px;
+    }
+    .text {
+        width: 366px;
+        height: 97px;
+        margin-top: 194px;
+        margin-left: 200px;
+    }
+    .text1 {
+        width: 352px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .nav2 {
+        display: none;
+    }
+    ul {
+        display: none;
+    }
+    .navb {
+        display: none;
+    }
+    .text2 {
+        width: 190px !important;
+        height: 36px !important;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .text3 {
+        width: 286px !important;
+        height: 37px !important;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px !important;
+        line-height: 36px;
+        margin-top: -12px;
+        margin-left: 65px;
+    }
+    .box3 {
+        display: flex;
+    }
+    .box6 {
+        margin-left: -640px;
+        margin-top: 200px;
+    }
+    .t {
+        font-family: 'Gosha Sans';
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .t_s {
+        width: 280px;
+        height: 165px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .bb {
+        width: 92%;
+    }
+    .p-t {
+        width: 191px;
+        height: 58px;
+        font-family: 'Gosha Sans';
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .olsta {
+        width: 916px;
+        height: 37px;
+        margin-bottom: 200px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        margin-left: 0px;
+        line-height: 37px;
+    }
+    .o_a {
+        display: none;
+    }
+    .bayramix {
+        width: 916px;
+        height: 37px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        margin-bottom: 200px;
+        font-size: 24px;
+        margin-left: 0px;
+        line-height: 37px;
+    }
+    .o_d {
+        display: none;
+    }
+    .calipsoshoes {
+        width: 916px;
+        height: 37px;
+        margin-bottom: 200px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        margin-left: 0px;
+        line-height: 37px;
+    }
+    .o_c {
+        display: none;
+    }
+    .decorazza {
+        width: 916px;
+        height: 37px;
+        margin-bottom: 200px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        margin-left: 0px;
+        line-height: 37px;
+    }
+    .o_e {
+        display: none;
+    }
+    .details-shop {
+        width: 916px;
+        height: 37px;
+        margin-left: 0px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 37px;
+    }
+    .o_b {
+        display: none;
+    }
+    .call {
+        width: 397px;
+        height: 58px;
+        font-family: 'Gosha Sans';
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .gmail {
+        width: 472px;
+        height: 50px;
+        margin-top: 130px;
+        margin-left: -200px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .telegram {
+        width: 472px;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 50%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .help {
+        margin-top: -300px;
+    }
+    .box2 {
+        flex-direction: column;
+    }
+    .онас {
+        margin-top: 80px;
+        font-size: 48px;
+    }
+    .longtext1 {
+        margin-top: 24px;
+    }
+    .longtext2 {
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .t_s {
+        width: 230px;
+    }
+    .box6 {
+        margin-left: -537px;
+    }
+    .olsta {
+        margin-left: -120px;
+    }
+    .bayramix {
+        margin-left: -120px;
+    }
+    .details-shop {
+        margin-left: -120px;
+    }
+    .calipsoshoes {
+        margin-left: -120px;
+    }
+    .decorazza {
+        margin-left: -120px;
+    }
+    .text1 {
+        width: 352px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .text2 {
+        width: 140px !important;
+        height: 33px !important;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 36px;
+    }
+    .text3 {
+        width: 240px !important;
+        height: 33px !important;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px !important;
+        line-height: 36px;
+    }
+    .gmail {
+        margin-left: -500px;
+    }
+    .telegram {
+        margin-left: 85px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        width: 90%;
+    }
+    .img {
+        width: 400px !important;
+        height: 555px !important;
+        position: absolute;
+        z-index: 200;
+    }
+    .text {
+        width: 366px;
+        height: 97px;
+        margin-top: 184px;
+        margin-left: 150px;
+    }
+    .text1 {
+        width: 352px;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 36px;
+        position: relative;
+        z-index: 220;
+    }
+    .text2 {
+        width: 150px !important;
+        height: 30px !important;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 36px;
+        position: relative;
+        z-index: 220;
+    }
+    .text3 {
+        width: 206px !important;
+        height: 30px !important;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px !important;
+        line-height: 36px;
+        margin-top: -8px;
+        margin-left: 10px;
+    }
+    .box3 {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .box5 {
+        position: absolute;
+        top: 200px;
+    }
+    .box6 {
+        margin-left: -373px;
+        margin-top: 400px;
+    }
+    .t {
+        width: 82.61px;
+        height: 28.87px;
+        font-size: 23.8884px;
+    }
+    .t_s {
+        width: 342.4px;
+        height: 80.62px;
+        font-size: 11.9442px;
+    }
+    .bb {
+        width: 92%;
+    }
+    .p-t {
+        width: 191px;
+        height: 58px;
+        font-family: 'Gosha Sans';
+        font-size: 45px;
+        line-height: 58px;
+        margin-top: 400px;
+    }
+    .olsta {
+        margin-left: -110px;
+    }
+    .o-t {
+        font-size: 28px;
+    }
+    .o_a {
+        display: none;
+    }
+    .bayramix {
+        margin-left: -110px;
+    }
+    .o_d {
+        display: none;
+    }
+    .calipsoshoes {
+        margin-left: -110px;
+    }
+    .o_c {
+        display: none;
+    }
+    .decorazza {
+        margin-left: -110px;
+    }
+    .o_e {
+        display: none;
+    }
+    .details-shop {
+        margin-left: -110px;
+    }
+    .o_b {
+        display: none;
+    }
+    .call {
+        font-family: 'Gosha Sans';
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .gmail {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .telegram {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .help {
+        margin-top: -300px;
+    }
+    .box2 {
+        flex-direction: column;
+    }
+    .онас {
+        margin-top: 80px;
+        font-size: 48px;
+    }
+    .longtext1 {
+        width: 342.4px!important;
+        font-size: 13.9349px;
+        line-height: 23px;
+        margin-top: 24px;
+    }
+    .longtext2 {
+        position: absolute;
+        width: 342.4px!important;
+        font-size: 13.9349px;
+        line-height: 23px;
+        top: 320px;
+        left: -45px;
+    }
+}
