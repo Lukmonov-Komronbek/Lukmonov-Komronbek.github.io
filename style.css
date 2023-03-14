@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./files_2/rasm.jpg);
+}
+
+.box {
+    width: 20%;
+    height: 9.5vh;
+    position: absolute;
+    left: 0;
+    bottom: 47%;
+}
+
+.link {
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    transition: all 0.9s;
+    align-items: center;
+}
+
+.telegram {
+    width: 33%;
+    font-size: 50px;
+    font-family: Algerian;
+    color: rgb(2, 102, 241);
+    height: auto;
+}
+
+.t:hover~.telegram {
+    opacity: 0;
+}
+
+.t:hover {
+    opacity: 1;
+}
+
+.g:hover~.google {
+    opacity: 0;
+}
+
+.g:hover {
+    opacity: 1;
+}
+
+.i:hover~.instagram {
+    opacity: 0;
+}
+
+.i:hover {
+    opacity: 1;
+}
+
+.t {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    width: 33%;
+    font-size: 50px;
+    color: rgb(2, 102, 241);
+    font-family: Algerian;
+    height: auto;
+    transition: all 0.9s;
+}
+
+.google {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 33%;
+    font-size: 50px;
+    margin-top: 10px;
+    font-family: Algerian;
+    color: rgb(75, 185, 103);
+    height: 60%;
+}
+
+.g {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    opacity: 0;
+    width: 33%;
+    font-size: 50px;
+    margin-top: 10px;
+    font-family: Algerian;
+    color: rgb(75, 185, 103);
+    height: 60%;
+    transition: all 0.9s;
+}
+
+.instagram {
+    width: 33%;
+    font-family: Algerian;
+    font-size: 50px;
+    color: blueviolet;
+    margin-top: 10px;
+    position: absolute;
+    left: 5px;
+    top: 90px;
+}
+
+.i {
+    position: absolute;
+    left: 5px;
+    top: 90px;
+    opacity: 0;
+    width: 33%;
+    font-family: Algerian;
+    font-size: 50px;
+    color: blueviolet;
+    margin-top: 10px;
+    transition: all 0.9s;
+}
+
+.menu {
+    padding: auto;
+    right: 0;
+}
+
+.home {
+    color: #fff;
+    position: absolute;
+    right: 0;
+}
