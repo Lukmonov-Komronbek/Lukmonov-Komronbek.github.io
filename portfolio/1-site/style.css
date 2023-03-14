@@ -24,6 +24,10 @@
             background-color: rgb(255, 254, 254);
             border: 1px solid grey;
             font-family: 'Roboto';
+            border-radius: 10px;
+            outline: 5px solid rgb(126, 126, 126);
+            outline-offset: -2px;
+            box-shadow: 0 0 10px 3px white;
         }
         
         .img1 {
