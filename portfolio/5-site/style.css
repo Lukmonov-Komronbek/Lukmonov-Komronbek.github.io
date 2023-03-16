@@ -248,7 +248,7 @@ section {
 }
 
 .knight {
-    width: 150px;
+    width: 80px;
     height: auto;
     mix-blend-mode: multiply;
     filter: contrast(2);
@@ -331,6 +331,9 @@ section {
         margin-top: -10px;
         margin-right: 90px;
     }
+    .knight {
+        width: 10%;
+    }
 }
 
 @media screen and ( max-width: 425px) {
@@ -356,8 +359,8 @@ section {
         flex-flow: row wrap;
     }
     .knight {
-        width: 100px;
-        margin-left: -70px;
+        width: 50px;
+        margin-left: -20px;
     }
     .box3 {
         margin-left: 0;
