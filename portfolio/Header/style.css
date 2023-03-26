@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    height: auto;
+}
+
+.b-g {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    border: 10px;
+    align-items: center;
+    background: linear-gradient(240deg, rgba(108, 34, 122, 0.5), rgba(138, 54, 9, 0.5), rgba(211, 102, 233, 0.5), rgba(108, 34, 122, 0.2), rgba(153, 70, 7, 0.5), rgba(107, 2, 107, 0.6));
+}
+
+.box {
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+}
+
+.menu {
+    display: flex;
+}
+
+.circle {
+    width: 12%;
+    height: 8vh;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.fox {
+    width: 20%;
+    margin-top: -30px;
+    margin-left: 40px;
+}
+
+.adel {
+    font-size: 28px;
+    font-family: Berlin Sans FB;
+    font-weight: 300;
+    position: absolute;
+    left: 320px;
+    color: rgb(34, 33, 33);
+}
+
+.menues {
+    font-size: 15px;
+    color: black;
+    font-family: Berlin Sans FB;
+    position: absolute;
+    left: 500px;
+    top: 180px;
+}
+
+.menues_p {
+    font-size: 15px;
+    color: rgb(72, 72, 72);
+    font-family: Berlin Sans FB;
+    position: absolute;
+    left: 610px;
+    top: 180px;
+}
+
+.menues_pr {
+    font-size: 15px;
+    color: rgb(72, 72, 72);
+    font-family: Berlin Sans FB;
+    position: absolute;
+    left: 700px;
+    top: 180px;
+}
+
+.btn {
+    cursor: pointer;
+    width: 100px;
+    padding: 10px;
+    position: absolute;
+    right: 300px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 100px;
+}
+
+.box3 {
+    display: flex;
+    margin-top: 200px;
+    margin-left: -30%;
+}
+
+.a {
+    color: rgb(14, 216, 44);
+    word-spacing: 5px;
+    font-family: Consolas;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid rgb(14, 216, 44);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.earn {
+    margin-top: 10px;
+    font-size: 70px;
+    font-family: Arial;
+    font-weight: 600;
+}
+
+.learn {
+    font-style: 25px;
+    color: rgb(101, 101, 101);
+    font-family: Bahnschrift;
+}
+
+.button {
+    width: 110px;
+    padding: 12px;
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(66, 66, 253);
+    color: white;
+    margin-top: 10px;
+}
+
+.d-f {
+    display: flex;
+}
+
+.watch {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 15px;
+    color: #343434;
+}
+
+.img1 {
+    width: 30%;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+}
+
+@media screen and (max-width: 1440px) {
+    .box3 {
+        display: flex;
+        margin-top: 200px;
+        margin-left: -40%;
+    }
+    .menues {
+        font-size: 15px;
+        color: black;
+        font-family: Berlin Sans FB;
+        position: absolute;
+        left: 500px;
+        top: 174px;
+    }
+    .menues_p {
+        font-size: 15px;
+        color: black;
+        font-family: Berlin Sans FB;
+        position: absolute;
+        left: 610px;
+        top: 174px;
+    }
+    .menues_pr {
+        font-size: 15px;
+        color: black;
+        font-family: Berlin Sans FB;
+        position: absolute;
+        left: 700px;
+        top: 174px;
+    }
+    .earn {
+        font-size: 60px;
+    }
+    .img1 {
+        top: 25%;
+        left: 55%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .box3 {
+        display: flex;
+        margin-top: 200px;
+        margin-left: -60%;
+    }
+    .adel {
+        left: 250px;
+    }
+    .menues {
+        font-size: 15px;
+        color: black;
+        font-family: Berlin Sans FB;
+        position: absolute;
+        left: 400px;
+        top: 164px;
+    }
+    .btn {
+        left: 750px;
+    }
+    .menues_p {
+        font-size: 15px;
+        color: black;
+        font-family: Berlin Sans FB;
+        position: absolute;
+        left: 510px;
+        top: 164px;
+    }
+    .menues_pr {
+        font-size: 15px;
+        color: black;
+        font-family: Berlin Sans FB;
+        position: absolute;
+        left: 600px;
+        top: 164px;
+    }
+    .earn {
+        font-size: 60px;
+    }
+    .img1 {
+        top: 35%;
+        left: 55%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .box3 {
+        display: flex;
+        margin-top: 200px;
+        margin-left: -90%;
+    }
+    .adel {
+        font-size: 25px;
+        margin-left: -165px;
+    }
+    .fox {
+        margin-left: -10px;
+    }
+    .menues {
+        font-size: 15px;
+        color: black;
+        font-family: Berlin Sans FB;
+        position: absolute;
+        left: 280px;
+        top: 160px;
+    }
+    .menues_p {
+        font-size: 15px;
+        color: black;
+        font-family: Berlin Sans FB;
+        position: absolute;
+        left: 380px;
+        top: 160px;
+    }
+    .menues_pr {
+        font-size: 15px;
+        color: black;
+        font-family: Berlin Sans FB;
+        position: absolute;
+        left: 480px;
+        top: 160px;
+    }
+    .btn {
+        right: 100px;
+        top: 150px;
+    }
+    .earn {
+        font-size: 40px;
+    }
+    .img1 {
+        width: 40%;
+        top: 30%;
+        left: 50%;
+    }
+    .a {
+        width: 50px;
+        padding: 5;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .menues {
+        display: none;
+    }
+    .menues_p {
+        display: none;
+    }
+    .menues_pr {
+        display: none;
+    }
+    .btn {
+        top: 143px;
+        left: 270px;
+    }
+    .fox {
+        width: 20%;
+        margin-left: -20px;
+        margin-top: -35px;
+    }
+    .adel {
+        top: 143px;
+        left: 270px;
+    }
+    .circle {
+        width: 14%;
+    }
+    .a {
+        font-size: 10px;
+    }
+    .earn {
+        font-size: 30px;
+    }
+    .learn {
+        font-size: 15px;
+    }
+    .box3 {
+        margin-top: 170px;
+        margin-left: -155%;
+    }
+    .img1 {
+        width: 40%;
+        top: 60%;
+        left: 28%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .btn {
+        left: 230px;
+    }
+    .d-f {
+        margin-left: -14px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .btn {
+        top: 138px;
+        left: 180px;
+    }
+    .box3 {
+        margin-left: -145%;
+    }
+    .adel {
+        left: 240px;
+        top: 138px;
+    }
+    .button {
+        width: 87px;
+        padding: 9px;
+        border-radius: 100px;
+        border: none;
+        background-color: rgb(66, 66, 253);
+        color: white;
+        margin-top: 20px;
+    }
+    .watch {
+        margin-top: 30px;
+    }
+}
