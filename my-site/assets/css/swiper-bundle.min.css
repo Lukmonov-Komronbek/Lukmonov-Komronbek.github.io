@@ -237,7 +237,8 @@
     text-align: center;
     transition: .3s opacity;
     transform: translate3d(0, 0, 0);
-    z-index: 10
+    z-index: 10;
+    margin: -15px 0;
 }
 
 .swiper-pagination.swiper-pagination-hidden {
